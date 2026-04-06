@@ -1,0 +1,6 @@
+<menus>
+    <menu id="StopMenu" title="@Strings.AppName">
+        <menu-item id="restart" label="@Strings.RestartMenuLabel"/>
+        <menu-item id="exit" label="@Strings.ExitMenuLabel"/>
+    </menu>
+</menus>
