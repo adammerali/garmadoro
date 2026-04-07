@@ -1,0 +1,26 @@
+<settings>
+    <setting propertyKey="pomodoroLength" title="@Strings.PomodoroLength">
+        <settingConfig type="numeric" min="1"/>
+    </setting>
+    <setting propertyKey="shortBreakLength" title="@Strings.ShortBreakLength">
+        <settingConfig type="numeric" min="1"/>
+    </setting>
+    <setting propertyKey="longBreakLength" title="@Strings.LongBreakLength">
+        <settingConfig type="numeric" min="1"/>
+    </setting>
+    <setting propertyKey="numberOfPomodorosBeforeLongBreak" title="@Strings.NumberOfPomodorosBeforeLongBreak">
+        <settingConfig type="numeric" min="1"/>
+    </setting>
+    <setting propertyKey="tickStrength" title="@Strings.TickStrength">
+        <settingConfig type="numeric" min="0" max="100"/>
+    </setting>
+    <setting propertyKey="tickDuration" title="@Strings.TickDuration">
+        <settingConfig type="numeric" min="80" max="1000"/>
+    </setting>
+    <setting propertyKey="tickFrequency" title="@Strings.TickFrequency">
+        <settingConfig type="numeric" min="1" max="3600"/>
+    </setting>
+    <setting propertyKey="muteSounds" title="@Strings.MuteSounds">
+        <settingConfig type="boolean"/>
+    </setting>
+</settings>
